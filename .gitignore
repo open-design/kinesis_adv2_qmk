@@ -1,0 +1,17 @@
+*.swp
+*.pyc
+/build/
+
+# KiCAD files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.net
+*.dsn
+
+*-cache
+*-cache.lib
+
+*.csv
+*.xlsx
