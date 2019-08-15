@@ -356,15 +356,15 @@
     (pad P$12 thru_hole circle (at 6.25 -1.65) (size 1.5112 1.5112) (drill 0.8) (layers *.Cu *.Mask))
   )
 
-  (module "" (layer Top) (tedit 0) (tstamp 0)
+  (module MountingHole:MountingHole_6.4mm_M6 (layer Top) (tedit 56D1B4CB) (tstamp 5D555E5F)
     (at 148.5011 86.5036)
     (fp_text reference @HOLE0 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.15)))
     )
-    (fp_text value "" (at 0 0) (layer F.SilkS)
+    (fp_text value MountingHole_6.4mm_M6 (at 0 7.4) (layer F.Fab)
       (effects (font (size 1.524 1.524) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.4 6.4) (drill 6.4) (layers *.Cu))
+    (pad 1 np_thru_hole circle (at 0 0) (size 6.4 6.4) (drill 6.4) (layers *.Cu *.Mask))
   )
 
   (module TEENSY++ (layer Top) (tedit 5B0C8A53) (tstamp 5AF99503)
